@@ -1,0 +1,33 @@
+record_id,prompt,response_a,response_b,reference_answer,category,preference_label,justification
+1,What is 2+2?,4,5,4,math,A,Response A is mathematically correct; Response B gives an incorrect sum.
+2,What is the capital of France?,Paris,London,Paris,general_knowledge,A,Paris is the capital of France; London is the capital of the United Kingdom.
+3,What is a React component?,A reusable UI building block.,A database query.,A reusable piece of UI in React.,programming,A,Response A correctly describes a React component; Response B describes a different concept.
+4,What does HTTP 404 mean?,The resource was not found.,The request succeeded.,The requested resource was not found.,web_development,A,Response A correctly identifies 404 as Not Found; Response B incorrectly describes success.
+5,What is the purpose of CSS?,To style web pages.,To store database records.,CSS styles the presentation of web pages.,web_development,A,Response A correctly describes CSS presentation styling; Response B confuses CSS with database storage.
+6,What is 10 divided by 2?,5,8,5,math,A,Response A gives the correct quotient; Response B is incorrect.
+7,Which language is commonly used for interactive behavior in web browsers?,JavaScript,SQL,JavaScript,programming,A,JavaScript is commonly used for browser-side scripting; SQL is used to query databases.
+8,What does HTML stand for?,HyperText Markup Language,High Transfer Machine Language,HyperText Markup Language,web_development,A,Response A expands HTML correctly; Response B is not the correct expansion.
+9,What is 9 multiplied by 3?,24,27,27,math,B,Response B gives the correct product; Response A is incorrect.
+10,What is the capital of Japan?,Seoul,Tokyo,Tokyo,general_knowledge,B,Tokyo is the capital of Japan; Seoul is the capital of South Korea.
+11,What does CSS stand for?,Computer Style Syntax,Cascading Style Sheets,Cascading Style Sheets,web_development,B,Response B gives the correct expansion of CSS.
+12,Which data format uses key-value pairs and is commonly used in APIs?,JPEG,JSON,JSON,programming,B,JSON represents structured data with key-value pairs; JPEG is an image format.
+13,What does HTTP status code 200 usually indicate?,The requested resource was not found.,The server reports that the request succeeded.,The server reports success.,web_development,B,Response B correctly describes a successful HTTP request; Response A describes a not-found result.
+14,What is 15 minus 6?,10,9,9,math,B,Response B gives the correct difference; Response A is incorrect.
+15,Which Python keyword defines a function?,class,def,def,programming,B,The keyword def defines a function in Python; class defines a class.
+16,Which planet is known as the Red Planet?,Venus,Mars,Mars,general_knowledge,B,Mars is commonly known as the Red Planet; Venus is not.
+17,What is 3+4?,7,Three plus four equals seven.,7,math,Tie,Both responses give the same correct answer; neither is materially better for this simple question.
+18,What is the capital of Italy?,Rome,The capital of Italy is Rome.,Rome,general_knowledge,Tie,Both responses are correct and clear; the extra wording does not materially improve the answer.
+19,What does HTML do?,It structures content on web pages.,HTML defines the structure of webpage content.,HTML structures webpage content.,web_development,Tie,Both responses accurately describe HTML's role and are similarly clear.
+20,What is a Python list?,"An ordered, mutable collection.",A mutable ordered collection of items.,"An ordered, mutable collection.",programming,Tie,Both responses describe the same key properties of a Python list.
+21,What is 8 divided by 4?,2,The answer is 2.,2,math,Tie,Both responses provide the correct answer; the wording difference is not significant.
+22,What does API stand for?,Application Programming Interface,API means Application Programming Interface.,Application Programming Interface,programming,Tie,Both responses correctly expand API and communicate the same information.
+23,What is the capital of Canada?,Ottawa,Ottawa is Canada's capital city.,Ottawa,general_knowledge,Tie,Both responses are correct and equally useful.
+24,What is the purpose of a CSS media query?,To apply styles based on conditions such as viewport width.,Media queries let CSS rules depend on conditions like screen size.,To apply styles based on conditions such as viewport width.,web_development,Tie,Both responses correctly explain media queries and are comparable in detail.
+25,What is 6+7?,Banana,Purple is a number.,13,math,Both poor,Neither response answers the arithmetic question correctly.
+26,What is the capital of Germany?,A type of fruit.,The Pacific Ocean.,Berlin,general_knowledge,Both poor,Neither response identifies Berlin or answers the question.
+27,What is a React component?,A kind of sandwich.,A network cable.,A reusable piece of UI in React.,programming,Both poor,Both responses are unrelated to React components.
+28,What does HTTP 404 mean?,A successful payment.,A programming language.,The requested resource was not found.,web_development,Both poor,Neither response correctly explains the HTTP 404 status.
+29,What is the purpose of CSS?,To calculate bank interest.,To store passwords in a database.,To style web pages.,web_development,Both poor,Both responses describe unrelated purposes.
+30,What is 12 divided by 3?,5,6,4,math,Both poor,Both responses give incorrect quotients.
+31,Which language is commonly used for browser-side scripting?,SQL,Bash,JavaScript,programming,Both poor,Neither response is the expected browser-side scripting language for this question.
+32,What does JSON stand for?,Java Source Object Network,Joined System Output Name,JavaScript Object Notation,programming,Both poor,Neither response correctly expands JSON.
